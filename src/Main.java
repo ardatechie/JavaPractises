@@ -10,5 +10,10 @@ public class Main {
         System.out.println("Cylinder radius: " + cylinder.getRadius());
         System.out.println("Cylinder height: " + cylinder.getHeight());
         System.out.println("Cylinder volume: " + cylinder.getVolume());
+
+        Cuboid cuboid = new Cuboid(5, 10, 5);
+        System.out.println("Cuboid: " + cuboid.getArea());
+        System.out.println("Cuboid height: " + cuboid.getHeight());
+        System.out.println("Cuboid volume: " + cuboid.getVolume());
     }
 }
